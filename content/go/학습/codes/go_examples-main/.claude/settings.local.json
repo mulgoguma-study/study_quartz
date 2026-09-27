@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod tidy:*)",
+      "Bash(mkdir:*)",
+      "Bash(go test:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $f ===\")",
+      "Bash(go build:*)",
+      "Bash(done)",
+      "Bash(go run:*)",
+      "Bash(xxd:*)"
+    ]
+  }
+}
